@@ -172,11 +172,11 @@ console.log(newMobiles) // ['pixel','galaxy','huawei']
 ## 예제 코드
 ```javascript
 const mobiles = ['iphone','pixel','galaxy','huawei','nokia']
-// array.slice(start, end); start는 추출을 시작할 index이고 end는 추출을 종료하는 index입니다.
+// array.slice(start, end); start는 추출을 시작할 index이고 end는 추출을 종료하는 index입니다. 그런데 end index는 추출결과에 들어가지 않습니다.
 const newMobiles = mobiles.slice(2,3)
 
 console.log(mobiles) // ['iphone','pixel','galaxy','huawei','nokia']
-console.log(newMobiles) // ['pixel','galaxy']
+console.log(newMobiles) // ['galaxy']
 ```
 ***
 - # concat
