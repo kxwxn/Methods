@@ -114,7 +114,8 @@ const priceTags = chocolates.map((item,index)=>{
   return `${item.name}:${item.price}`
 });
 
-console.log(chocolates);
-console.log(priceTags);
+console.log(priceTags); // ["m&m:20","kisses:21","ritter:22","kinder:18"]
+console.log(chocolates); // [{name:"m&m",price:20},{name:"kisses",price:21},{name:"ritter",price:22},{name:"kinder",price:18},]
+
 // map메소드 또한 원본 배열을 변경하지 않고, 새로운 배열을 생성하여 반환 합니다.
 ```
