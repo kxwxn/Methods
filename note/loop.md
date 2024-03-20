@@ -3,7 +3,6 @@
 - ### for 문:
 
 ```javascript
-Copy code
 for (초기값; 조건; 증감) {
     // 반복할 코드
 }
@@ -16,7 +15,6 @@ for (초기값; 조건; 증감) {
 - ### while 문:
 
 ```javascript
-Copy code
 while (조건) {
     // 반복할 코드
 }
@@ -28,7 +26,6 @@ while (조건) {
 - ### do...while 문:
 
 ```javascript
-Copy code
 do {
     // 반복할 코드
 } while (조건);
@@ -39,7 +36,6 @@ while 문과 비슷하지만, 코드 블록이 한 번 실행된 후 조건을 �
 - ### for...of 문:
 
 ```javascript
-Copy code
 for (변수 of 배열) {
     // 반복할 코드
 }
@@ -51,7 +47,6 @@ for (변수 of 배열) {
 - ### for...in 문:
 
 ```javascript
-Copy code
 for (변수 in 객체) {
     // 반복할 코드
 }
